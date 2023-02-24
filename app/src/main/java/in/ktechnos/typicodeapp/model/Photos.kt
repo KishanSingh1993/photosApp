@@ -1,4 +1,4 @@
-package `in`.ktechnos.typicodeapp
+package `in`.ktechnos.typicodeapp.model
 
 data class Photos(
     val title: String,

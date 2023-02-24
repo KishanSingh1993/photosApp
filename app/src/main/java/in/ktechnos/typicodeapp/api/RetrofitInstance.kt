@@ -1,4 +1,4 @@
-package `in`.ktechnos.typicodeapp
+package `in`.ktechnos.typicodeapp.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
