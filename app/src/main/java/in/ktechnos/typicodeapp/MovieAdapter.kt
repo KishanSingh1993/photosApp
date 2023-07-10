@@ -34,9 +34,9 @@ class MovieAdapter : RecyclerView.Adapter<MainViewHolder>() {
         val movie = movieList[position]
         if (ValidationUtil.validateMovie(movie)) {
             holder.binding.name.text = movie.title
-            Glide.with(holder.itemView.context).load(movie.thumbnailUrl).into(holder.binding.imageview)
+            //Glide.with(holder.itemView.context).load(movie.thumbnailUrl).into(holder.binding.imageview)
 
-            //Picasso.get().load(movie.thumbnailUrl).into(holder.binding.imageview);
+            Picasso.get().load(movie.thumbnailUrl).into(holder.binding.imageview);
         }
     }
 
