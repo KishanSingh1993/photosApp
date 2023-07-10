@@ -23,8 +23,6 @@ class MainViewModel constructor(private val mainRepository: MainRepository) : Vi
     var job: Job? = null
 
 
-
-
     private val exceptionHandler = CoroutineExceptionHandler { _, throwable ->
         onError("Exception handled: ${throwable.localizedMessage}")
     }
